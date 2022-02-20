@@ -9,6 +9,7 @@ public class questao2 {
         Scanner scanner = new Scanner(System.in);
         String senha = scanner.nextLine();
         validators validar = new validators();
+
         System.out.println(validar.validaSenha(senha));
 
     }
