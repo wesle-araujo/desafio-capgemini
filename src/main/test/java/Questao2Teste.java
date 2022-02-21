@@ -8,7 +8,7 @@ public class Questao2Teste {
 
     @Test
     public void SenhaAtendeTodosOsRequisitos_RetornaZero(){
-        Questao2 questao2 = new Questao2("1&aBla");
+        Questao2 questao2 = new Questao2("1Ab$gf");
         int validaSenha = questao2.validaSenha();
         Assertions.assertEquals(0,validaSenha);
 
